@@ -1,27 +1,20 @@
+//practice code
+
 /*function validateSyntax() {
     let input = document.getElementById('petInput').value;
     // Validation logic goes here
     let result = ''; // Placeholder for validation result
     convertedValue = String(input);
-
     // TODO: Write your validation logic here
         // Check if input starts with 'pet_' and followed by alphanumeric characters
-   
     let start = 'pet_';
     let date = null;
- 
     let output = documet.querySelector('result');
     document.getElementById('result').innerText = result;
-
     if (input.slice(0,3) === start) {
       result = 'Valid syntax';
-       
-   
-  
     } else{
-        result = 'Invalid syntax';
-        
-       
+        result = 'Invalid syntax';  
     }
 }*/
 
@@ -36,22 +29,11 @@
          const pet = "pet_"
          let alphanumericRegex =  /^[a-zA-Z0-9]+$/ ;
          let name = pet + toString(alphanumericRegex);
-
-
-
-
-
-
-          
-
           if (input === name){
             document.getElementById('result').textContent = 'Valid Syntax';
           }else {
             document.getElementById('result').textContent= 'Invalid Syntax';
-          }
-
-          
-
+          }  
 }*/
   /*if (alphanumericRegex.test(input)) {
                 document.getElementById('errorMsg').style.display = 'none';
@@ -61,6 +43,10 @@
                 // Input is invalid
             }*/
 
+
+
+
+//Final Product
             function validateSyntax() {
                 let input = document.getElementById('petInput').value;
                 // Validation logic goes here
